@@ -32,8 +32,8 @@ The notebook makes it easy to crop an area of your screen capture, and your came
 
 4. Specify the the input video path, and where to store the final output.
     ```python
-    input_video = "./data/RWPro-2024-10-31.mp4"
-    ouptut_video = "./data/RWPro-2024-10-31_final.mp4"
+    input_video = "./data/RWPro_input.mp4"
+    ouptut_video = "./data/RWPro_final.mp4"
     ```
 5. And specify the crop dimensions. This will show an interactive video player, and you can adjust dimensions for fit
     ```python
