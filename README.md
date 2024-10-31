@@ -2,7 +2,7 @@
 
 When screen recording, sometimes your video output has a resolution that's too wide. This can be caused by many things, such as using a ultra wide setup, or multiscreen, mismatches in screen scaling or DPI settings, or just plain bugs.
 
-There's a notebook here that makes it easy to:
+There's a notebook is a quick way to:
 
 Go from this:
 ![](./images/image1_original.png)
@@ -27,7 +27,7 @@ The notebook makes it easy to crop an area of your screen capture, and your came
 1. **Install `ffmpeg` using the above instructions, if not already installed.**
 2. **Clone the Repository**:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/mirceagrelus/video-cropper.git
 3. Open the Notebook `cropping.ipynb` in your editor of choice (Jupyter, Visual Studio Code, etc). Visual Studio Code will prompt you to install the required plugins.
 
 4. Specify the the input video path, and where to store the final output.
