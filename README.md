@@ -2,7 +2,7 @@
 
 When screen recording, sometimes your video output has a resolution that's too wide. This can be caused by many things, such as using a ultra wide setup, or multiscreen, mismatches in screen scaling or DPI settings, or just plain bugs.
 
-There's a notebook is a quick way to:
+The notebook is a quick way to:
 
 Go from this:
 ![](./images/image1_original.png)
