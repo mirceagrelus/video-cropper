@@ -21,6 +21,17 @@ The notebook makes it easy to crop an area of your screen capture, and your came
   - macOS: `brew install ffmpeg`
   - Ubuntu: `sudo apt update && sudo apt install ffmpeg`
   - Windows: [Download FFmpeg](https://ffmpeg.org/download.html) and add it to your system path.
+    -  [Download FFmpeg](https://ffmpeg.org/download.html)
+    - Unzip the file using any archiver
+    - Rename the extracted folder to **ffmpeg** and move it to the root of your C drive (`C:\ffmpeg`)
+    - Run `cmd` as an administrator and set the environment path variable for ffmpeg by running the following command:
+        ```bash
+        setx /m PATH "C:\ffmpeg\bin;%PATH%"
+        ```
+    - Possibly restart computer and verify installation by running:
+        ```bash
+        ffmpeg -version
+       ```
 
 ## Instructions
 
